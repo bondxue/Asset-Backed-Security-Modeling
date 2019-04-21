@@ -6,7 +6,7 @@ ScriptUni Python in Finance Certificate Final Project
 
 ## Summary
 * [ABS background and purpose](#abs-background-purpose)
-* [ABS model implementation]((#abs-implementation))
+* [ABS model implementation](#abs-implementation)
 
 ### ABS background
 Every `structured deal` consists of a pool of `assets` (the `Loans`) and a group of `liabilities` (the *asset-backed securities*). The objective of structuring is to create and sell customized `securities` to investors, which are backed by the `pool of loans`.
