@@ -23,7 +23,17 @@ Implement metrics on the **Waterfall**. This includes `Internal Rate of Return (
 #### Valuing the structure 
 The last part is to value and rate the ABS. This entails creating a **Monte Carlo simulation** to simulate thousands of different *credit default* scenarios, all of which help determine the rating of the structure. The objective here is to get a taste of implementing an actual Monte Carlo simulation for finance in Python, utilizing the existing classes, **random number generation** and **multiprocessing**. The outcome will be a `rate`, `rating`, and `Weighted Average Life (WAL)` for each *tranche* of our very simple structure.
 
-
+```Python
+    since my MC is extremely very slow, I only test relatively small NSIM 
+    when NSIM = 60:
+    num_processes = 10   MC time cost: 131.306999922 s
+    num_processes = 20   MC time cost: 118.375 s  
+    num_processes = 30   MC time cost: 114.0849998 s
+    In this case, num_processes = 30  is the best choice.
+    when NSIM = 80:
+    num_processes = 20   MC time cost: 135.541999817 s
+    The optimal process number is also dependent on NSIM. 
+```
 
 
 
