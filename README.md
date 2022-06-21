@@ -1,7 +1,4 @@
 # Asset-Backed-Security-Modeling
-ScriptUni Python in Finance Certificate Final Project
-
-----------------------
 
 ## Summary
 * [ABS background and purpose](#abs-background-purpose)
